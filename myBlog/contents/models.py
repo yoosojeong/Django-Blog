@@ -16,6 +16,15 @@ class Content(TimeStampedModel):
 
     """ Content Model """
 
-    title = models.TextField()
+    title = models.TextField(max_length=30)
     text = models.TextField()
     tags =  TaggableManager()
+
+class Comment():
+    
+    """ Comment Model """
+    message = models.TextField()
+
+class Like():
+    
+    """ Comment Model """

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'contents',
     'taggit', #Tags for the photos
     'taggit_serializer', # tag serializer
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
